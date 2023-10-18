@@ -86,7 +86,7 @@ module ID (
           end
         7'b0100011: //STORE
           begin
-            MemWrite_ID_temp=0;
+            MemWrite_ID_temp=1;
             RegWrite_ID_temp=0;
             ALUSrc_temp=1;
             store=1;
